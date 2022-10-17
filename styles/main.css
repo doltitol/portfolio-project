@@ -115,7 +115,7 @@ p {
     font-weight: 600;
 }
 
-.about-section {
+.content {
     background-color: var(--white-color);
     padding: 100px 0;
 }
@@ -137,6 +137,23 @@ p {
 }
 
 .skills-icon:hover {
+    box-shadow: 0 0 0;
+}
+
+.work {
+    background-color: var(--white-color);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    transition: all 0.7s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.work:hover {
     box-shadow: 0 0 0;
 }
 
@@ -212,7 +229,7 @@ p {
         padding: 50px 0 0 0;
     }
 
-    .about-section {
+    .content {
         padding: 50px 0 0 0;
     }
 
