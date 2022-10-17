@@ -185,6 +185,23 @@ p {
     font-size: 20px;
 }
 
+footer {
+    background-color: var(--accent-color);
+    padding: 30px 0;
+}
+
+.email-link {
+    font-size: 20px;
+    color: var(--primary-base-color);
+    font-family: var(--default-font-family);
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.email-link:hover {
+    color: var(--secondary-color);
+}
+
 /* Navigation styles */
 nav {
     padding: 20px 0;
@@ -327,6 +344,10 @@ nav {
 
     nav {
         padding: 8px 0;
+    }
+
+    .email-link {
+        font-size: 16px;
     }
 
 }
